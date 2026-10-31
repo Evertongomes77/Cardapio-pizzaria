@@ -1,4 +1,3 @@
-
 export const menuData = [
     {
       id: "tradicionais",
@@ -10,7 +9,7 @@ export const menuData = [
           name: "Calabresa",
           description:
             "Molho artesanal, mussarela, calabresa fatiada, cebola e orégano.",
-          image: "/images/calabresa.webp",
+          image: "./imagensPizzas/pizza_calabresa.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 32.90 },
@@ -23,7 +22,7 @@ export const menuData = [
           name: "Mussarela",
           description:
             "Molho artesanal, mussarela especial, tomate e orégano.",
-          image: "/images/mussarela.webp",
+          image: "./imagensPizzas/pizza_mussarela.jpg",
           featured: false,
           sizes: [
             { name: "P", price: 29.90 },
@@ -36,7 +35,7 @@ export const menuData = [
           name: "Portuguesa",
           description:
             "Mussarela, presunto, ovos, cebola, ervilha e azeitonas.",
-          image: "/images/portuguesa.webp",
+          image: "./imagensPizzas/pizza_portuguesa.jpg",
           featured: false,
           sizes: [
             { name: "P", price: 36.90 },
@@ -49,7 +48,7 @@ export const menuData = [
           name: "Frango com Catupiry",
           description:
             "Frango desfiado, mussarela e requeijão cremoso.",
-          image: "/images/frango-catupiry.webp",
+          image: "./imagensPizzas/pizza_frango_com_catupiry.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 37.90 },
@@ -70,7 +69,7 @@ export const menuData = [
           name: "Quatro Queijos",
           description:
             "Mussarela, provolone, parmesão e gorgonzola.",
-          image: "/images/quatro-queijos.webp",
+          image: "./imagensPizzas/pizza_quatro_queijos.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 42.90 },
@@ -83,7 +82,7 @@ export const menuData = [
           name: "Bacon Supreme",
           description:
             "Mussarela, bacon crocante, molho barbecue e cebola caramelizada.",
-          image: "/images/bacon-supreme.webp",
+          image: "./imagensPizzas/pizza_baicom_supreme.jpg",
           featured: false,
           sizes: [
             { name: "P", price: 44.90 },
@@ -96,7 +95,7 @@ export const menuData = [
           name: "Pepperoni",
           description:
             "Mussarela, pepperoni especial e molho artesanal.",
-          image: "/images/pepperoni.webp",
+          image: "./imagensPizzas/pizza_peperone.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 43.90 },
@@ -109,7 +108,7 @@ export const menuData = [
           name: "Forlenha Especial",
           description:
             "Mussarela, tomate seco, rúcula, parmesão e molho especial da casa.",
-          image: "/images/forlenha-especial.webp",
+          image: "./imagensPizzas/pizza_forlenha_especial.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 46.90 },
@@ -130,7 +129,7 @@ export const menuData = [
           name: "Chocolate com Morango",
           description:
             "Chocolate ao leite cremoso e morangos frescos.",
-          image: "/images/chocolate-morango.webp",
+          image: "./imagensPizzas/Pizza_chocolate_com_morango.jpg",
           featured: true,
           sizes: [
             { name: "P", price: 36.90 },
@@ -143,7 +142,7 @@ export const menuData = [
           name: "Banana com Canela",
           description:
             "Banana, chocolate branco, açúcar e canela.",
-          image: "/images/banana-canela.webp",
+          image: "./imagensPizzas/pizza_banana_com_canela.jpg",
           featured: false,
           sizes: [
             { name: "P", price: 32.90 },
@@ -163,7 +162,7 @@ export const menuData = [
           id: "coca-cola-2l",
           name: "Coca-Cola 2L",
           description: "Refrigerante Coca-Cola original.",
-          image: "/images/coca-cola.webp",
+          image: "./imagensPizzas/coca_cola_2L.jpg",
           featured: true,
           price: 13.00,
         },
@@ -171,7 +170,7 @@ export const menuData = [
           id: "guarana-2l",
           name: "Guaraná Antarctica 2L",
           description: "Refrigerante Guaraná Antarctica.",
-          image: "/images/guarana.webp",
+          image: "./imagensPizzas/guarana_2L.jpg",
           featured: false,
           price: 11.00,
         },
@@ -179,7 +178,7 @@ export const menuData = [
           id: "fanta-laranja",
           name: "Fanta Laranja 350ml",
           description: "Refrigerante de laranja em lata.",
-          image: "/images/fanta.webp",
+          image: "./imagensPizzas/fanta_350ml.jpg",
           featured: false,
           price: 6.00,
         },
@@ -187,7 +186,7 @@ export const menuData = [
           id: "agua-mineral",
           name: "Água Mineral 500ml",
           description: "Água mineral com ou sem gás.",
-          image: "/images/agua.webp",
+          image: "./imagensPizzas/agua_mineral_500ml.jpg",
           featured: false,
           price: 4.00,
         },
@@ -204,7 +203,7 @@ export const menuData = [
           name: "Brownie",
           description:
             "Brownie de chocolate com casquinha crocante.",
-          image: "/images/brownie.webp",
+          image: "./imagensPizzas/brownie.jpg",
           featured: true,
           price: 12.00,
         },
@@ -212,11 +211,10 @@ export const menuData = [
           id: "mousse-chocolate",
           name: "Mousse de Chocolate",
           description: "Mousse cremosa de chocolate.",
-          image: "/images/mousse.webp",
+          image: "./imagensPizzas/mousse_chocolate.jpg",
           featured: false,
           price: 10.00,
         },
       ],
     },
   ];
-  
