@@ -12,11 +12,11 @@ function Apresentacao() {
                 <FraseIngredientes>Ingredientes selecionados, massa de longa fermentação <br /> e o sabor inconfundível do nosso forno a lenha.</FraseIngredientes>
                 <InformacaoesEntrega>
                     <div>
-                        <Clock />
+                        <Clock style={{color:'#b90000'}}/>
                         <p>18-35 min</p>
                     </div>
                     <div>
-                        <Bike />
+                        <Bike style={{color:'#b90000'}} />
                         <p>Entrega grátis acima de R$ 80</p>
                     </div>
                 </InformacaoesEntrega>

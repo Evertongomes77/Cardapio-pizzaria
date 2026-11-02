@@ -13,7 +13,7 @@ display: flex;
 align-items: center;
 gap: 2rem;
 min-height: 80px;
-background-color:rgb(230, 239, 219);
+background-color: #f8f5ef;
 `
 
 export const ContainerTexto= styled.div`
@@ -26,5 +26,5 @@ justify-content: center;
 export const TituloPizzaria= styled.p`
 font-size: 20px;
 font-weight: 500;
-color:rgb(146, 139, 139);
+color: #292521;
 `
