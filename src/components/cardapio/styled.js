@@ -143,6 +143,7 @@ width: 100%;
 gap: 8px;
 
 button{
+    cursor: pointer;
     width: 84px;
     border-radius: 5px;
     height: 30px;
